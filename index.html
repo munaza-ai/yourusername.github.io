@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Munaza Asia | HPC & Computational Physics Portfolio</title>
+    <meta
+      name="description"
+      content="Munaza Asia — Master in High Performance Computing student, computational physicist, and HPC/ML researcher in Trieste, Italy."
+    />
+    <meta name="theme-color" content="#091420" />
+    <meta property="og:title" content="Munaza Asia | Academic Portfolio" />
+    <meta
+      property="og:description"
+      content="HPC, computational physics, and machine learning portfolio of Munaza Asia."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://munaza-ai.github.io/yourusername.github.io/" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header class="site-header" id="top">
+      <nav class="nav container" aria-label="Primary navigation">
+        <a class="brand" href="#top">Munaza Asia</a>
+        <button
+          class="nav-toggle"
+          id="nav-toggle"
+          aria-expanded="false"
+          aria-controls="nav-links"
+          aria-label="Open navigation menu"
+        >
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#hpc-projects">HPC Projects</a></li>
+          <li><a href="#research-projects">Research</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#publications">Publications</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="container hero-grid">
+          <div>
+            <p class="eyebrow">Computational Physics • HPC • ML</p>
+            <h1 id="hero-title">Munaza Asia</h1>
+            <p class="lead">
+              Master in High Performance Computing student, computational physicist, and
+              HPC/ML researcher building scalable scientific computing solutions.
+            </p>
+            <div class="hero-cta">
+              <a class="btn btn-primary" href="https://github.com/munaza-ai" target="_blank" rel="noopener noreferrer">View GitHub</a>
+              <a class="btn btn-secondary" href="mailto:munazaasia.chep@gmail.com">Contact</a>
+              <a class="btn btn-ghost" href="#" aria-describedby="cv-note">Download CV</a>
+            </div>
+            <p class="muted" id="cv-note">CV link placeholder — replace href when PDF is added.</p>
+          </div>
+          <aside class="hero-card" aria-label="Profile summary">
+            <h2>At a glance</h2>
+            <ul>
+              <li><strong>Location:</strong> Trieste, Italy</li>
+              <li><strong>Email:</strong> <a href="mailto:munazaasia.chep@gmail.com">munazaasia.chep@gmail.com</a></li>
+              <li><strong>Phone:</strong> <a href="tel:+923187846364">+92 318-7846364</a></li>
+              <li><strong>Focus:</strong> Parallel computing, numerical modeling, stochastic systems</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <section id="about" class="section container" aria-labelledby="about-title">
+        <h2 id="about-title">About</h2>
+        <p>
+          I am an HPC and computational physics researcher with training across numerical methods,
+          machine learning, and scientific simulation. My work spans parallel PDE solvers,
+          stochastic biophysics models, and computational astrophysics, with a focus on robust,
+          high-performance implementations for real scientific workloads.
+        </p>
+      </section>
+
+      <section id="education" class="section container" aria-labelledby="education-title">
+        <h2 id="education-title">Education</h2>
+        <div class="timeline">
+          <article>
+            <h3>Master in High Performance Computing</h3>
+            <p>ICTP and SISSA, Trieste, Italy • Sep 2025–present</p>
+          </article>
+          <article>
+            <h3>Postgraduate Diploma in Quantitative Life Sciences</h3>
+            <p>ICTP, Trieste, Italy • Sep 2024–2025</p>
+            <p>Courses: Statistical Mechanics, Biophysics, Supervised Machine Learning, Probability &amp; Information Theory, Numerical Methods, Mathematical Methods, Reinforcement Learning, Mathematical Economics.</p>
+            <p>Thesis: <em>First Passage Times of Optically-Trapped Particles Near Cancer Cells</em> (experimental and theoretical).</p>
+          </article>
+          <article>
+            <h3>Master of Philosophy in Physics</h3>
+            <p>University of the Punjab, Pakistan • 2021–2023 • CGPA 3.60/4.00</p>
+            <p>Thesis: <em>Physical Modeling of Stellar Objects in Modified Theories of Gravity.</em></p>
+          </article>
+          <article>
+            <h3>Master of Science in Computational Physics</h3>
+            <p>University of the Punjab, Pakistan • 2019–2021 • CGPA 3.46/4.00</p>
+            <p>Thesis: <em>Nonlinear Oscillators and Chaos.</em></p>
+          </article>
+          <article>
+            <h3>Bachelor of Science in Physics &amp; Mathematics</h3>
+            <p>University of the Punjab, Pakistan • 2017–2019 • Marks 81%</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="skills" class="section container" aria-labelledby="skills-title">
+        <h2 id="skills-title">Technical Skills</h2>
+        <div class="chips-grid">
+          <article><h3>Coding</h3><p>Bash, C, C++, Python, Fortran, Vim, Linux, Overleaf, GitHub, Slurm, LaTeX, Mathematica</p></article>
+          <article><h3>Parallel Programming</h3><p>OpenMP, MPI, C++ Boost Thread</p></article>
+          <article><h3>GPU Programming</h3><p>CUDA, OpenACC, CuPy</p></article>
+          <article><h3>Machine Learning</h3><p>PyTorch, scikit-learn, Pandas, Dask</p></article>
+          <article><h3>Simulation Tools</h3><p>PETSc, deal.II, ParaView</p></article>
+          <article><h3>Profiling</h3><p>Score-P, Scalasca, Nsight, perf, gprof</p></article>
+          <article><h3>Containers &amp; Cloud</h3><p>Docker, Singularity, VirtualBox, AWS</p></article>
+          <article><h3>HPC Clusters</h3><p>Leonardo Supercomputing Cluster (CINECA, Italy), CoARE HPC (Philippines)</p></article>
+          <article><h3>Languages</h3><p>English, Urdu, Punjabi</p></article>
+        </div>
+      </section>
+
+      <section id="hpc-projects" class="section container" aria-labelledby="hpc-title">
+        <h2 id="hpc-title">HPC Projects</h2>
+        <div class="cards">
+          <article>
+            <h3>High-Performance Parallel Solver for the Nonlinear Burgers Equation (PETSc)</h3>
+            <p>ICTP–SISSA</p>
+            <p>Parallel PDE solver using PETSc with CPU optimization, memory-efficient domain decomposition, MPI parallelization, vectorization, and BLAS integration; achieved 3× speedup on 4 CPU cores with optimized ghost-cell communication.</p>
+            <a href="https://github.com/munaza-ai" target="_blank" rel="noopener noreferrer">Project source on GitHub profile</a>
+          </article>
+          <article>
+            <h3>Parallel Linear Algebra on CPU (Boost MPI / Threads, MPFR)</h3>
+            <p>ICTP–SISSA</p>
+            <p>Parallel block LU factorization using GNU MPFR arbitrary precision with C++ Boost.MPI and Boost.Thread, plus a parallel Jacobi solver for the Laplace equation.</p>
+            <a href="https://github.com/munaza-ai" target="_blank" rel="noopener noreferrer">Project source on GitHub profile</a>
+          </article>
+          <article>
+            <h3>GPU Computing (CUDA / OpenACC)</h3>
+            <p>ICTP–SISSA</p>
+            <p>CUDA/OpenACC implementations of Cannon’s algorithm, a GPU Jacobi solver, and parallel matrix-multiplication kernels.</p>
+            <a href="https://github.com/munaza-ai" target="_blank" rel="noopener noreferrer">Project source on GitHub profile</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="research-projects" class="section container" aria-labelledby="research-title">
+        <h2 id="research-title">Research Projects</h2>
+        <div class="cards">
+          <article><h3>Continuous-Time Markov Model for Kinesin Stepping</h3><p>ICTP • Jan 2025</p><p>Python Gillespie simulation of stochastic kinesin motor-protein movement on a microtubule.</p></article>
+          <article><h3>Active Chiral Brownian Motion</h3><p>ICTP • Dec 2024</p><p>Analytical and computational 2D microswimmer modeling using Langevin SDE, Euler–Maruyama integration, and Fokker–Planck PDE analysis.</p></article>
+          <article><h3>Population Dynamics Analysis of the Spruce Budworm</h3><p>ICTP</p><p>Ecological population modeling and data visualization for species-dynamics interpretation.</p></article>
+          <article><h3>Modeling the Accelerating Universe: Cosmological Expansion &amp; Dark Energy</h3><p>LUMS</p><p>Runge–Kutta integration of the Friedmann equation across multiple cosmological models.</p></article>
+          <article><h3>Celestial Object Declination &amp; Positioning (AstroLab)</h3><p>LUMS</p><p>Astrophysics lab experiment with Python data analysis and manuscript/problem-set development.</p></article>
+        </div>
+      </section>
+
+      <section id="experience" class="section container" aria-labelledby="experience-title">
+        <h2 id="experience-title">Academic Experience</h2>
+        <div class="timeline">
+          <article>
+            <h3>Research Assistant</h3>
+            <p>Lahore University of Management Sciences • Sep 2023–Aug 2024</p>
+            <p>Designed astrophysics Muon Detector lab experiments and developed lab manuals.</p>
+          </article>
+          <article>
+            <h3>Teaching Assistant</h3>
+            <p>Lahore University of Management Sciences • Oct 2023–Aug 2024</p>
+            <p>Led tutorials and office hours, supported assessments, and handled missed exams and contact hours.</p>
+          </article>
+          <article>
+            <h3>Research Assistant</h3>
+            <p>University of the Punjab • 2022–2023</p>
+            <p>Performed analytical calculations and numerical simulations, and mentored undergraduate physics students.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="publications" class="section container" aria-labelledby="publications-title">
+        <h2 id="publications-title">Publications</h2>
+        <ol class="pub-list">
+          <li>A. Ditta, M. Asia, G. Mustafa, A. Errehymy, S.K. Maurya, A. Mahmood. “Anisotropic stellar modeling via MIT Bag model EoS admitting Finch–Skea spacetime in f(Q) gravity.” <em>The European Physical Journal Plus</em>, 139(11), 1–15 (2024).</li>
+          <li>A. Ditta, X. Tiecheng, M. Asia, I. Mahmood. “Cloud of strings and quintessence compact stars with anisotropic fluid in symmetric teleparallel gravity.” <em>International Journal of Geometric Methods in Modern Physics</em>, 21(4), 2450076 (2024).</li>
+          <li>A. Ditta, M. Asia, G. Mustafa, D. Sofuoğlu, A. Mahmood. “Imprints of cloud of strings and quintessence field on compact stellar configurations.” <em>Physica Scripta</em>, 99(6), 065009 (2024).</li>
+          <li>A. Ditta, X. Tiecheng, I. Mahmood, M. Asia, A. Mahmood. “Anisotropic stellar modeling with clouds of string and quintessence field in Rastall gravity.” <em>International Journal of Modern Physics A</em>, 38(28), 2350153 (2023).</li>
+        </ol>
+      </section>
+
+      <section id="achievements" class="section container" aria-labelledby="achievements-title">
+        <h2 id="achievements-title">Achievements &amp; Scholarships</h2>
+        <ul>
+          <li>Distinction and Gold Medalist, Master of Philosophy in Physics.</li>
+          <li>2nd Position, Bachelor of Science, district level.</li>
+          <li>Certificate, Spring College in the Physics of Complex Systems, ICTP, 17 Feb–14 Mar 2025.</li>
+          <li>Fully-funded scholarship, Master in High Performance Computing, ICTP.</li>
+          <li>Fully-funded scholarship, M.Sc., University of the Punjab.</li>
+          <li>National Merit Scholarship 2019, Higher Education Commission, Government of Pakistan.</li>
+          <li>Fully-funded scholarship, ICTP Postgraduate Diploma Programme.</li>
+        </ul>
+      </section>
+
+      <section id="conferences" class="section container" aria-labelledby="conferences-title">
+        <h2 id="conferences-title">Conferences &amp; Seminars</h2>
+        <ul>
+          <li>Spring College in the Physics of Complex Systems, ICTP, Feb–Mar 2025.</li>
+          <li>ICTP seminars: deterministic vs stochastic dynamics in competitive communities (N. Shnerb, Feb 2025); discrete lattice random-walk theories (L. Giuggioli, Oct 2024); colloquium “The Bizarre One-Dimensional Quantum Physics” (T. Giamarchi, Sep 2024).</li>
+          <li>International Biophysics Workshop — Single Molecule Biophysics, Prof. J. Molloy, The Crick Institute, LUMS, Mar 2023.</li>
+          <li>University of the Punjab seminars on origin of universe/dark energy (2024), gravitation/cosmology (2023), and negative energy contribution to bound muon decay (2022).</li>
+        </ul>
+      </section>
+
+      <section id="leadership" class="section container" aria-labelledby="leadership-title">
+        <h2 id="leadership-title">Leadership &amp; Volunteering</h2>
+        <ul>
+          <li>Staff Helper, ICTP 60th Anniversary Programme.</li>
+          <li>Class Representative, Quantitative Life Sciences, ICTP.</li>
+          <li>Class Representative, M.Phil. Physics, Center for High Energy Physics, University of the Punjab.</li>
+        </ul>
+      </section>
+
+      <section id="contact" class="section container" aria-labelledby="contact-title">
+        <h2 id="contact-title">Contact</h2>
+        <p>Interested in collaborations in HPC, computational physics, or ML for science.</p>
+        <ul class="contact-list">
+          <li><strong>Email:</strong> <a href="mailto:munazaasia.chep@gmail.com">munazaasia.chep@gmail.com</a></li>
+          <li><strong>Phone:</strong> <a href="tel:+923187846364">+92 318-7846364</a></li>
+          <li><strong>Location:</strong> Trieste, Italy</li>
+          <li><strong>GitHub:</strong> <a href="https://github.com/munaza-ai" target="_blank" rel="noopener noreferrer">github.com/munaza-ai</a></li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>Munaza Asia • Trieste, Italy • <a href="mailto:munazaasia.chep@gmail.com">munazaasia.chep@gmail.com</a> • <a href="https://github.com/munaza-ai" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+        <p>© <span id="year"></span> Munaza Asia</p>
+      </div>
+      <button id="back-to-top" class="back-to-top" aria-label="Back to top">↑</button>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
